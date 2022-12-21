@@ -13,7 +13,7 @@ Collaboration with [Phillip Ionkov](http://phion.org/)
 - <b>Regeneron International Science and Engineering Fair 2020 Finalist<b>
     - ISEF 2020 was cancelled
 - New Mexico State Science Fair (<b>Cancelled<b>)
-- Northern New Mexico Regional Science Fair
+- Northeastern New Mexico Regional Science and Engineering Fair
     - Best in Show Runner Up (ISEF 2020 Qualification)
     - 1st Place in Senior Physics and Astronomy
 
