@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 2
-display_categories: [Science Fair, Los Alamos National Laboratory]
+display_categories: [Los Alamos National Laboratory,Science Fair]
 horizontal: false
 ---
 
