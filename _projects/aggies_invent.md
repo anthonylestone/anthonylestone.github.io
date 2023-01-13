@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Designing a Satellite Cryocooling System
-description: This project puts forth a design for a satellite system which can cool an instrument to extremely low temperatures while remaining within various technical constraints
+description: This project puts forth a design for a satellite system which can cool a detector to extremely low temperatures while adhering to various technical constraints
 img: assets/img/cubesat.jpg
 importance: 1
 category: Aggies Invent
