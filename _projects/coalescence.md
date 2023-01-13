@@ -14,5 +14,5 @@ This project was completed during the summer of 2022 as part of an internship at
 [View PDF](/assets/pdf/B Quark Hadronisation.pdf)
 
 **LA-UR-22-27876**
-<iframe src="/assets/pdf/B Quark Hadronisation.pdf" width="100%" height="700px">
+<iframe src="/assets/pdf/B Quark Hadronisation.pdf" width="100%" height="650px">
 </iframe>

@@ -17,5 +17,5 @@ The goal of this project was to design a system that can cool a satellite based 
 Aggies Invent is a 48 hour competition where teams of students compete to come up with solutions to real world problems. You can read more about it [here](https://engineering.tamu.edu/student-life/aggies-invent/index.html).
 
 [View PDF](/assets/pdf/Aggies Invent Nuclear Security.pdf)
-<iframe src="/assets/pdf/Aggies Invent Nuclear Security.pdf" width="100%" height="700px">
+<iframe src="/assets/pdf/Aggies Invent Nuclear Security.pdf" width="100%" height="550px">
 </iframe>

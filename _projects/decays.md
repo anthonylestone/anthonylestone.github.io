@@ -16,5 +16,5 @@ Data for this project came from the LHCb experiment at CERN, and analysis was ca
 [View PDF](/assets/pdf/Analysis of D Meson Decays at LHCb.pdf)
 
 **LA-UR-21-27161**
-<iframe src="/assets/pdf/Analysis of D Meson Decays at LHCb.pdf" width="100%" height="700px">
+<iframe src="/assets/pdf/Analysis of D Meson Decays at LHCb.pdf" width="100%" height="550px">
 </iframe>

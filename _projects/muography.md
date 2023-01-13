@@ -18,5 +18,5 @@ Collaboration with [Phillip Ionkov](http://phion.org/)
     - 1st Place in Senior Physics and Astronomy
 
 [View PDF](/assets/pdf/Nondestructive Archaeology Using Muography.pdf)
-<iframe src="/assets/pdf/Nondestructive Archaeology Using Muography.pdf" width="100%" height="700px">
+<iframe src="/assets/pdf/Nondestructive Archaeology Using Muography.pdf" width="100%" height="550px">
 </iframe>
