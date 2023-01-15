@@ -3,7 +3,7 @@ layout: page
 title: Archaeology Using Muon Radiography
 description: Using  changes in cosmic ray muon flux to search for density irregularities in geographical structures
 img: assets/img/muondetector.jpg
-importance: 2
+importance: 1
 category: Science Fair
 ---
 
@@ -18,5 +18,6 @@ Collaboration with [Phillip Ionkov](http://phion.org/)
     - 1st Place in Senior Physics and Astronomy
 
 [View PDF](/assets/pdf/Nondestructive Archaeology Using Muography.pdf)
-<iframe src="/assets/pdf/Nondestructive Archaeology Using Muography.pdf" width="100%" height="550px">
-</iframe>
+<object data="/assets/pdf/Nondestructive Archaeology Using Muography.pdf" width="100%" height="550px">
+    <embed src = "https://docs.google.com/viewer?url=https://anthonylestone.github.io/assets/pdf/Nondestructive%20Archaeology%20Using%20Muography.pdf&embedded=true" width = "100%" height = "550px"/>
+</object>

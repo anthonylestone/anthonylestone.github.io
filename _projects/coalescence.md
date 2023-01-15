@@ -14,5 +14,6 @@ This project was completed during the summer of 2022 as part of an internship at
 [View PDF](/assets/pdf/B Quark Hadronisation.pdf)
 
 **LA-UR-22-27876**
-<iframe src="/assets/pdf/B Quark Hadronisation.pdf" width="100%" height="650px">
-</iframe>
+<object data="/assets/pdf/B Quark Hadronisation.pdf" width="100%" height="550px">
+    <embed src = "https://docs.google.com/viewer?url=https://anthonylestone.github.io/assets/pdf/B%20Quark%20Hadronisation.pdf&embedded=true" width = "100%" height = "500px"/>
+</object>
