@@ -79,3 +79,16 @@
   type: list
   contents:
     - Nuclear and Particle Physics, Vector Calculus, Linear Algebra, Differential Equations, Computational Physics (in progress), Electronic Circuits
+
+- title: Volunteer Work
+  type: time_table
+  contents:
+    - title: Science Fair Judge
+      year: 2022
+      items: 
+        - Judged the chemistry projects in the senior division in the 2022 Texas Science and Engineering Fair
+    - title: Science Bowl Mentor
+      year: 2021-present
+      items: 
+        - Mentor for the Los Alamos High School Science Bowl team
+        - Involves reading questions for practice, assisting in studying, and helping to prepare for competition
