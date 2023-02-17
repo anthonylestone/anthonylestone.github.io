@@ -2,6 +2,7 @@
 permalink: /robots.txt
 ---
 User-agent: *
+Allow: /projects/
 Disallow: /assets/
 Disallow: /blog/
 Disallow: /news/
