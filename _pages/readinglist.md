@@ -9,6 +9,8 @@ Books are listed in the order that they were completed.
 
 <b><big>2022</big><b>
 
+- *Rome Sweet Home* -- Kimberly Hahn and Scott Hahn
+- *The 7 Secrets of the Eucharist* -- Vinny Flynn
 - *Adam and Eve after the Pill: Paradoxes of the Sexual Revolution* -- Mary Eberstadt
 - *Fill These Hearts: God, Sex, and the Universal Longing* -- Christopher West
 - *Christus Vincit: Christ’s Triumph Over the Darkness of the Age* -- Bishop Athanasius Schneider
