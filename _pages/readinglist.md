@@ -27,12 +27,12 @@ Books are listed in the order that they were completed.
 - *Self-Reliance* -- Ralph Waldo Emerson
 - *The Gospel of Matthew* -- Douay-Rheims Bible
 - *The Dating Blueprint* -- Jason Evert
+- *Deep Work: Rules for Focused Success in a Distracted World* -- Cal Newport
 
 <b>In progress:<b>
 
 - *The Acts of the Apostles* -- Douay-Rheims Bible
 - *The Glories of Mary* -- St. Alphonsus Liguori
-- *Deep Work: Rules for Focused Success in a Distracted World* -- Cal Newport
 - *Theology of the Body Explained -- A Commentary on John Paul II's "Gospel of the Body"* -- Christopher West
 - *Bowling Alone: The Collapse and Revival of American Community* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
