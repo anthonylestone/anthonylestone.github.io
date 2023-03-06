@@ -36,3 +36,4 @@ Books are listed in the order that they were completed.
 - *Theology of the Body Explained -- A Commentary on John Paul II's "Gospel of the Body"* -- Christopher West
 - *Bowling Alone: The Collapse and Revival of American Community* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
+- *Can't Hurt Me: Master Your Mind and Defy the Odds* -- David Goggins
