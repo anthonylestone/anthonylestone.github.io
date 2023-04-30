@@ -48,3 +48,5 @@ Books are listed in the order that they were completed.
 - *The Gospel of Matthew* -- Douay-Rheims Bible
 - *The Acts of the Apostles* -- Douay-Rheims Bible
 - *The Epistle of St. Paul to the Romans* -- Douay-Rheims Bible
+- *The First Epistle of St. Paul to the Corinthians* -- Douay-Rheims Bible
+- *The Second Epistle of St. Paul to the Corinthians* -- Douay-Rheims Bible
