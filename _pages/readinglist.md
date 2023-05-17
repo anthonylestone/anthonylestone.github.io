@@ -34,6 +34,7 @@ Books are listed in the order that they were completed.
 - *Bowling Alone* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
 - *Can't Hurt Me* -- David Goggins
+- *The Meaning of the Mass* -- Rev. John Kerney
 
 ### Scripture
 
@@ -47,6 +48,9 @@ Books are listed in the order that they were completed.
 
 - *The Gospel of Matthew* -- Douay-Rheims Bible
 - *The Acts of the Apostles* -- Douay-Rheims Bible
-- *The Epistle of St. Paul to the Romans* -- Douay-Rheims Bible
-- *The First Epistle of St. Paul to the Corinthians* -- Douay-Rheims Bible
-- *The Second Epistle of St. Paul to the Corinthians* -- Douay-Rheims Bible
+- *Romans* -- Douay-Rheims Bible
+- *1 Corinthians* -- Douay-Rheims Bible
+- *2 Corinthians* -- Douay-Rheims Bible
+- *Galatians* -- Douay-Rheims Bible
+- *Ephesians* -- Douay-Rheims Bible
+- *Phillipians* -- Douay-Rheims Bible
