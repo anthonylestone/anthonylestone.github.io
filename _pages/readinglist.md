@@ -54,3 +54,4 @@ Books are listed in the order that they were completed.
 - *Galatians* -- Douay-Rheims Bible
 - *Ephesians* -- Douay-Rheims Bible
 - *Phillipians* -- Douay-Rheims Bible
+- *Colossians* -- Douay-Rheims Bible
