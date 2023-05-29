@@ -26,6 +26,7 @@ Books are listed in the order that they were completed.
 - *Self-Reliance* -- Ralph Waldo Emerson
 - *The Dating Blueprint* -- Jason Evert
 - *Deep Work* -- Cal Newport
+- *The Meaning of the Mass* -- Rev. John Kerney
 
 <b>In progress:<b>
 
@@ -34,7 +35,6 @@ Books are listed in the order that they were completed.
 - *Bowling Alone* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
 - *Can't Hurt Me* -- David Goggins
-- *The Meaning of the Mass* -- Rev. John Kerney
 
 ### Scripture
 
