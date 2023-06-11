@@ -27,6 +27,7 @@ Books are listed in the order that they were completed.
 - *The Dating Blueprint* -- Jason Evert
 - *Deep Work* -- Cal Newport
 - *The Meaning of the Mass* -- Rev. John Kerney
+- *Can't Hurt Me* -- David Goggins
 
 <b>In progress:<b>
 
@@ -34,7 +35,6 @@ Books are listed in the order that they were completed.
 - *Theology of the Body Explained* -- Christopher West
 - *Bowling Alone* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
-- *Can't Hurt Me* -- David Goggins
 
 ### Scripture
 
