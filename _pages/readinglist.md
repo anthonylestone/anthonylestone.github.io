@@ -55,3 +55,5 @@ Books are listed in the order that they were completed.
 - *Ephesians* -- Douay-Rheims Bible
 - *Phillipians* -- Douay-Rheims Bible
 - *Colossians* -- Douay-Rheims Bible
+- *1 Thessalonians* -- Douay-Rheims Bible
+- *2 Thessalonians* -- Douay-Rheims Bible
