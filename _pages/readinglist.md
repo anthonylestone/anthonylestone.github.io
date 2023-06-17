@@ -57,3 +57,4 @@ Books are listed in the order that they were completed.
 - *Colossians* -- Douay-Rheims Bible
 - *1 Thessalonians* -- Douay-Rheims Bible
 - *2 Thessalonians* -- Douay-Rheims Bible
+- *1 Timothy* -- Douay-Rheims Bible
