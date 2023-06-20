@@ -58,3 +58,6 @@ Books are listed in the order that they were completed.
 - *1 Thessalonians* -- Douay-Rheims Bible
 - *2 Thessalonians* -- Douay-Rheims Bible
 - *1 Timothy* -- Douay-Rheims Bible
+- *2 Timothy* -- Douay-Rheims Bible
+- *Titus* -- Douay-Rheims Bible
+- *Philemon* -- Douay-Rheims Bible
