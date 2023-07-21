@@ -38,26 +38,32 @@ Books are listed in the order that they were completed.
 
 ### Scripture
 
+I use the [Douay-Rheims version](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
+
 <b><big>2022</big><b>
 
-- *The Gospel of John* -- Douay-Rheims Bible
-- *The Gospel of Luke* -- Douay-Rheims Bible
-- *The Gospel of Mark* -- Douay-Rheims Bible
+- *The Gospel of John*
+- *The Gospel of Luke*
+- *The Gospel of Mark*
 
 <b><big>2023</big><b>
 
-- *The Gospel of Matthew* -- Douay-Rheims Bible
-- *The Acts of the Apostles* -- Douay-Rheims Bible
-- *Romans* -- Douay-Rheims Bible
-- *1 Corinthians* -- Douay-Rheims Bible
-- *2 Corinthians* -- Douay-Rheims Bible
-- *Galatians* -- Douay-Rheims Bible
-- *Ephesians* -- Douay-Rheims Bible
-- *Phillipians* -- Douay-Rheims Bible
-- *Colossians* -- Douay-Rheims Bible
-- *1 Thessalonians* -- Douay-Rheims Bible
-- *2 Thessalonians* -- Douay-Rheims Bible
-- *1 Timothy* -- Douay-Rheims Bible
-- *2 Timothy* -- Douay-Rheims Bible
-- *Titus* -- Douay-Rheims Bible
-- *Philemon* -- Douay-Rheims Bible
+- *The Gospel of Matthew*
+- *The Acts of the Apostles*
+- *Romans*
+- *1 Corinthians*
+- *2 Corinthians*
+- *Galatians*
+- *Ephesians*
+- *Phillipians*
+- *Colossians*
+- *1 Thessalonians*
+- *2 Thessalonians*
+- *1 Timothy*
+- *2 Timothy*
+- *Titus*
+- *Philemon*
+- *Hebrews*
+- *James*
+- *1 Peter*
+- *2 Peter*
