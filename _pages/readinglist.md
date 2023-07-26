@@ -67,3 +67,5 @@ I use the [Douay-Rheims version](https://tanbooks.com/products/books/douay-rheim
 - *James*
 - *1 Peter*
 - *2 Peter*
+- *1 John*
+- *2 John*
