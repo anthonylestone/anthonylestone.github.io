@@ -35,10 +35,11 @@ Books are listed in the order that they were completed.
 - *Theology of the Body Explained* -- Christopher West
 - *Bowling Alone* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
+- *Ultralearning* -- Scott Young 
 
 ### Scripture
 
-I use the [Douay-Rheims version](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
+I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
 
 <b><big>2022</big><b>
 
@@ -49,7 +50,7 @@ I use the [Douay-Rheims version](https://tanbooks.com/products/books/douay-rheim
 <b><big>2023</big><b>
 
 - *The Gospel of Matthew*
-- *The Acts of the Apostles*
+- *Acts*
 - *Romans*
 - *1 Corinthians*
 - *2 Corinthians*
@@ -69,3 +70,5 @@ I use the [Douay-Rheims version](https://tanbooks.com/products/books/douay-rheim
 - *2 Peter*
 - *1 John*
 - *2 John*
+- *3 John*
+- *Jude*

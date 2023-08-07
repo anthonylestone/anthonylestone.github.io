@@ -7,4 +7,6 @@ dropdown: true
 children: 
     - title: Reading List
       permalink: /readinglist/
+    - title: Slides Archive 
+      permalink: /slidesarchive/
 ---
