@@ -28,6 +28,7 @@ Books are listed in the order that they were completed.
 - *Deep Work* -- Cal Newport
 - *The Meaning of the Mass* -- Rev. John Kerney
 - *Can't Hurt Me* -- David Goggins
+- *Ultralearning* -- Scott Young 
 
 <b>In progress:<b>
 
@@ -35,7 +36,6 @@ Books are listed in the order that they were completed.
 - *Theology of the Body Explained* -- Christopher West
 - *Bowling Alone* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
-- *Ultralearning* -- Scott Young 
 
 ### Scripture
 
