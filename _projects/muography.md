@@ -4,7 +4,7 @@ title: Archaeology Using Muon Radiography
 description: Using  changes in cosmic ray muon flux to search for density irregularities in geographical structures
 img: assets/img/muondetector.jpg
 importance: 1
-category: Science Fair
+category: High School Science Fair
 ---
 
 Collaboration with [Phillip Ionkov](http://phion.org/)

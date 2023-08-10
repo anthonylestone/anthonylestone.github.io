@@ -4,7 +4,7 @@ title: Measuring Cosmic Ray Muon Energy Spectrum
 description: Measuring and modeling the absorption of cosmic ray muons by lead
 img: assets/img/geantexperiment.jpg
 importance: 2
-category: Science Fair
+category: High School Science Fair
 ---
 
 Collaboration with [Phillip Ionkov](http://phion.org/)
