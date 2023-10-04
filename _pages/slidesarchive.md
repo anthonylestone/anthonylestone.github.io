@@ -16,5 +16,7 @@ Testing pulse shape discrimination on some old 7Be on 6Li data. Discrimination b
 [Team Meeting 7/28/2023](/assets/pdf/TeamMeeting-7_28_2023.pdf)
 Dead layers of the front (junction) and rear (ohmic) sides of MSD026-1500 silicon detector are measured. They are found to be 500nm, which is in agreement with the parts sheet.
 
+<b><big>Fall 2023</big><b>
+
 [Team Meeting 9/15/2023](/assets/pdf/TeamMeeting-9_15_2023.pdf)
 Shows Marina's results for rise time at different energies and bias voltages. Shows the poor discrimination from Imax at 8 MeV.
