@@ -32,7 +32,7 @@
       institution: Los Alamos National Laboratory
       year: 2021, 2022
       description:
-        - Worked in <a href="https://www.lanl.gov/org/ddste/aldps/physics/nuclear-and-particle-physics-and-applications-p3/henp-team.php">P-3 High Energy Nuclear Physics</a> under the supervision of <a href="https://scholar.google.com/citations?user=WcH7Dy8AAAAJ&hl=en">Dr. Matt Durham</a>
+        - Worked in <a href="https://organizations.lanl.gov/physical-sciences/physics/nuclear-particle-physics-applications/">P-3 High Energy Nuclear Physics</a> under the supervision of <a href="https://scholar.google.com/citations?user=WcH7Dy8AAAAJ&hl=en">Dr. Matt Durham</a>
         - Developed particle physics simulations featured in a <a href="https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.131.061901">research publication</a> within Physical Review Letters, the most-cited journal in the field of physics
         - Processed sizable physics data sets from CERN's Large Hadron Collider by writing scripts to analyze files with 10,000,000+ data points
         - Designed a C++ simulation to model the propagation and decay of subatomic particles in Earth's atmosphere
