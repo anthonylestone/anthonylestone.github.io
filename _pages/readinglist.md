@@ -73,3 +73,4 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *3 John*
 - *Jude*
 - *Revelation*
+- *Genesis*
