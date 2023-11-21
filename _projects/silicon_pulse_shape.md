@@ -2,7 +2,7 @@
 layout: page
 title: Silicon Detector Voltage Signal Analysis
 description: This project aims to distinguish between protons and deuterons by analyzing the voltage pulse coming from an ordinary silicon detector
-img: assets/img/muondetector.jpg
+img: assets/img/silicon.PNG
 importance: 1
 category: Texas A&M Cyclotron Institute
 ---
@@ -15,5 +15,5 @@ Pulse shape discrimination (PSD) is a technique used to differentiate between di
 
 [View PDF](/assets/pdf/SiliconDetectorPulseShape.pdf)
 <object data="/assets/pdf/SiliconDetectorPulseShape.pdf" width="100%" height="550px">
-    <embed src = "https://docs.google.com/viewer?url=https://anthonylestone.github.io/assets/pdf/Nondestructive%20Archaeology%20Using%20Muography.pdf&embedded=true" width = "100%" height = "550px"/>
+    <embed src = "https://docs.google.com/viewer?url=https://anthonylestone.github.io/assets/pdf/SiliconDetectorPulseShape.pdf&embedded=true" width = "100%" height = "550px"/>
 </object>
