@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 2
-display_categories: [Los Alamos National Laboratory,High School Science Fair,Aggies Invent]
+display_categories: [Texas A&M Cyclotron Institute,Los Alamos National Laboratory,High School Science Fair,Aggies Invent]
 horizontal: false
 ---
 
