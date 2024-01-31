@@ -28,7 +28,7 @@ Books are listed in the order that they were completed.
 - *Can't Hurt Me* -- David Goggins
 - *Ultralearning* -- Scott Young 
 
-<b><big>2023</big><b>
+<b><big>2024</big><b>
 
 <b>Finished:<b>
 
