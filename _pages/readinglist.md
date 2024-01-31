@@ -21,14 +21,18 @@ Books are listed in the order that they were completed.
 
 <b><big>2023</big><b>
 
-<b>Finished:<b>
-
 - *Self-Reliance* -- Ralph Waldo Emerson
 - *The Dating Blueprint* -- Jason Evert
 - *Deep Work* -- Cal Newport
 - *The Meaning of the Mass* -- Rev. John Kerney
 - *Can't Hurt Me* -- David Goggins
 - *Ultralearning* -- Scott Young 
+
+<b><big>2023</big><b>
+
+<b>Finished:<b>
+
+- *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
 
 <b>In progress:<b>
 
