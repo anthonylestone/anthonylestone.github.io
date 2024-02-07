@@ -33,13 +33,14 @@ Books are listed in the order that they were completed.
 <b>Finished:<b>
 
 - *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
+- *The Glories of Mary* -- St. Alphonsus Liguori
 
 <b>In progress:<b>
 
-- *The Glories of Mary* -- St. Alphonsus Liguori
 - *Theology of the Body Explained* -- Christopher West
 - *Bowling Alone* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
+- *The World According to Quantum Mechanics* -- Ulrich Mohrhoff
 
 ### Scripture
 
