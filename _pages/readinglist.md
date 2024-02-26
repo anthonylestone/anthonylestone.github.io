@@ -34,6 +34,7 @@ Books are listed in the order that they were completed.
 
 - *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
 - *The Glories of Mary* -- St. Alphonsus Liguori
+- *The Servile State* -- Hilaire Belloc
 
 <b>In progress:<b>
 
