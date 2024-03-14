@@ -80,3 +80,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *Jude*
 - *Revelation*
 - *Genesis*
+
+<b><big>2024</big><b>
+
+- *Exodus*
