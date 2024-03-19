@@ -35,11 +35,11 @@ Books are listed in the order that they were completed.
 - *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
 - *The Glories of Mary* -- St. Alphonsus Liguori
 - *The Servile State* -- Hilaire Belloc
+- *Bowling Alone* -- Robert D. Putnam
 
 <b>In progress:<b>
 
 - *Theology of the Body Explained* -- Christopher West
-- *Bowling Alone* -- Robert D. Putnam
 - *The Imitation of Christ* -- Thomas à Kempis
 - *The World According to Quantum Mechanics* -- Ulrich Mohrhoff
 
