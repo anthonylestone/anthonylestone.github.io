@@ -40,7 +40,6 @@ Books are listed in the order that they were completed.
 <b>In progress:<b>
 
 - *Theology of the Body Explained* -- Christopher West
-- *The Imitation of Christ* -- Thomas à Kempis
 - *The World According to Quantum Mechanics* -- Ulrich Mohrhoff
 
 ### Scripture
