@@ -83,3 +83,4 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 <b><big>2024</big><b>
 
 - *Exodus*
+- *Leviticus*
