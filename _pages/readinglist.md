@@ -41,6 +41,7 @@ Books are listed in the order that they were completed.
 
 - *Theology of the Body Explained* -- Christopher West
 - *The World According to Quantum Mechanics* -- Ulrich Mohrhoff
+- *A Tale of Two Cities* -- Charles Dickens
 
 ### Scripture
 
