@@ -5,9 +5,31 @@ permalink: /readinglist/
 nav: false
 ---
 
-Books are listed in the order that they were completed.
-
 ### Books
+
+<b><big>2024</big><b>
+
+<b>In progress:<b>
+
+- *Theology of the Body Explained* -- Christopher West
+- *The World According to Quantum Mechanics* -- Ulrich Mohrhoff
+- *A Tale of Two Cities* -- Charles Dickens
+
+<b>Finished:<b>
+
+- *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
+- *The Glories of Mary* -- St. Alphonsus Liguori
+- *The Servile State* -- Hilaire Belloc
+- *Bowling Alone* -- Robert D. Putnam
+
+<b><big>2023</big><b>
+
+- *Self-Reliance* -- Ralph Waldo Emerson
+- *The Dating Blueprint* -- Jason Evert
+- *Deep Work* -- Cal Newport
+- *The Meaning of the Mass* -- Rev. John Kerney
+- *Can't Hurt Me* -- David Goggins
+- *Ultralearning* -- Scott Young 
 
 <b><big>2022</big><b>
 
@@ -19,39 +41,14 @@ Books are listed in the order that they were completed.
 - *Dominus Est* -- Bishop Athanasius Schneider
 - *Champions of the Rosary* -- Fr. Donald Calloway
 
-<b><big>2023</big><b>
-
-- *Self-Reliance* -- Ralph Waldo Emerson
-- *The Dating Blueprint* -- Jason Evert
-- *Deep Work* -- Cal Newport
-- *The Meaning of the Mass* -- Rev. John Kerney
-- *Can't Hurt Me* -- David Goggins
-- *Ultralearning* -- Scott Young 
-
-<b><big>2024</big><b>
-
-<b>Finished:<b>
-
-- *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
-- *The Glories of Mary* -- St. Alphonsus Liguori
-- *The Servile State* -- Hilaire Belloc
-- *Bowling Alone* -- Robert D. Putnam
-
-<b>In progress:<b>
-
-- *Theology of the Body Explained* -- Christopher West
-- *The World According to Quantum Mechanics* -- Ulrich Mohrhoff
-- *A Tale of Two Cities* -- Charles Dickens
-
 ### Scripture
 
 I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
 
-<b><big>2022</big><b>
+<b><big>2024</big><b>
 
-- *The Gospel of John*
-- *The Gospel of Luke*
-- *The Gospel of Mark*
+- *Exodus*
+- *Leviticus*
 
 <b><big>2023</big><b>
 
@@ -81,7 +78,8 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *Revelation*
 - *Genesis*
 
-<b><big>2024</big><b>
+<b><big>2022</big><b>
 
-- *Exodus*
-- *Leviticus*
+- *The Gospel of John*
+- *The Gospel of Luke*
+- *The Gospel of Mark*
