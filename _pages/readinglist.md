@@ -12,7 +12,6 @@ nav: false
 <b>In progress:<b>
 
 - *Theology of the Body Explained* -- Christopher West
-- *The World According to Quantum Mechanics* -- Ulrich Mohrhoff
 - *A Tale of Two Cities* -- Charles Dickens
 
 <b>Finished:<b>
