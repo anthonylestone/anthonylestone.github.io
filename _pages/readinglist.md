@@ -48,6 +48,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 - *Exodus*
 - *Leviticus*
+- *Numbers*
 
 <b><big>2023</big><b>
 
