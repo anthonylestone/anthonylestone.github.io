@@ -11,19 +11,31 @@
 - title: Education
   type: time_table
   contents:
+    - title: Graduate Degree
+      institution: Texas A&M University
+      year: expected 2028 
+      description:
+       - PhD in Nuclear Physics
     - title: Undergraduate Degree
       institution: Texas A&M University
-      year: expected Aug 2024
+      year: 2021 - 2024
       description:
        - Bachelor of Science in Physics with minors in Mathematics and Computer Science
-       - Cumulative GPA 3.609
+       - GPA 3.609
 
 - title: Experience
   type: time_table
   contents:
-    - title: Undergraduate Researcher
+    - title: Graduate Research Assistant
       institution: Texas A&M Cyclotron Institute
-      year: 2023
+      year: 2023, 2024
+      description:
+        - Tested a new experimental technique to differentiate particles in a detector, revealing the detector's inability to distinguish between particles at desired energies, leading to substantial time and cost savings for the research group
+        - Designed new voltage signal analysis algorithms, giving rise to a substantial increase in particle identification ability over previous techniques
+        - Created C++ simulations to predict the viability of different experimental setups
+    - title: Undergraduate Research
+      institution: Texas A&M Cyclotron Institute
+      year: 2023, 2024
       description:
         - Tested a new experimental technique to differentiate particles in a detector, revealing the detector's inability to distinguish between particles at desired energies, leading to substantial time and cost savings for the research group
         - Designed new voltage signal analysis algorithms, giving rise to a substantial increase in particle identification ability over previous techniques
@@ -80,7 +92,7 @@
 - title: Relevant Coursework
   type: list
   contents:
-    - Computational Physics, Thermodynamics, Data Structures and Algorithms, Vector Calculus, Linear Algebra, Differential Equations, Electronic Circuits, Quantum Mechanics
+    - Computational Physics, Nuclear Physics, Thermodynamics, Data Structures and Algorithms, Vector Calculus, Linear Algebra, Differential Equations, Electronic Circuits, Quantum Mechanics
 
 - title: Volunteer Work
   type: time_table
@@ -95,6 +107,6 @@
       items: 
         - Judged projects in the high school chemistry division of the 2022 Texas Science and Engineering Fair on the basis of scientific rigor, experimental success, and quality of presentation
     - title: Science Bowl Mentor
-      year: 2021-present
+      year: 2021-2024
       items: 
         - Prepared a team of 5 high school students for competition by reading practice questions, assisting in studying, and providing learning resources
