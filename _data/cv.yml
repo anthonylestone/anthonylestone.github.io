@@ -11,16 +11,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: Graduate Degree
+    - title: PhD in Nuclear Physics
       institution: Texas A&M University
       year: expected 2028 
-      description:
-       - PhD in Nuclear Physics
-    - title: Undergraduate Degree
+    - title: Bachelor of Science in Physics
       institution: Texas A&M University
       year: 2021 - 2024
       description:
-       - Bachelor of Science in Physics with minors in Mathematics and Computer Science
+       - With minors in Mathematics and Computer Science
        - GPA 3.609
 
 - title: Experience
