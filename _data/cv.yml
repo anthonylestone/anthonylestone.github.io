@@ -26,12 +26,8 @@
   contents:
     - title: Graduate Research Assistant
       institution: Texas A&M Cyclotron Institute
-      year: 2023, 2024
-      description:
-        - Tested a new experimental technique to differentiate particles in a detector, revealing the detector's inability to distinguish between particles at desired energies, leading to substantial time and cost savings for the research group
-        - Designed new voltage signal analysis algorithms, giving rise to a substantial increase in particle identification ability over previous techniques
-        - Created C++ simulations to predict the viability of different experimental setups
-    - title: Undergraduate Research
+      year: 2024-present
+    - title: Undergraduate Research Assistant
       institution: Texas A&M Cyclotron Institute
       year: 2023, 2024
       description:
