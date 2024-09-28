@@ -10,9 +10,7 @@ nav: false
 <b><big>2024</big><b>
 
 <b>In progress:<b>
-
-- *Theology of the Body Explained* -- Christopher West
-- *A Tale of Two Cities* -- Charles Dickens
+- *Undaunted Courage* -- Stephen Ambrose
 
 <b>Finished:<b>
 
@@ -20,6 +18,8 @@ nav: false
 - *The Glories of Mary* -- St. Alphonsus Liguori
 - *The Servile State* -- Hilaire Belloc
 - *Bowling Alone* -- Robert D. Putnam
+- *A Tale of Two Cities* -- Charles Dickens
+- *Theology of the Body Explained* -- Christopher West
 
 <b><big>2023</big><b>
 
