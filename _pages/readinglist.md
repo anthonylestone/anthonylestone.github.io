@@ -50,6 +50,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *Leviticus*
 - *Numbers*
 - *Deuteronomy*
+- *Joshua*
 
 <b><big>2023</big><b>
 
