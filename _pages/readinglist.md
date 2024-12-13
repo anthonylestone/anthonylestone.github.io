@@ -7,6 +7,8 @@ nav: false
 
 ### Books
 
+Most recently completed are listed first.
+
 <b><big>2024</big><b>
 
 - *Undaunted Courage* -- Stephen Ambrose
