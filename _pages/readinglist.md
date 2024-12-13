@@ -11,7 +11,7 @@ nav: false
 Most recent are listed first.
 </small>
 
-<b>2024<b>
+<b>2024</b>
 
 <small>
 - *Undaunted Courage* -- Stephen Ambrose
@@ -23,7 +23,7 @@ Most recent are listed first.
 - *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
 </small>
 
-<b>2023<b>
+<b>2023</b>
 
 <small>
 - *Ultralearning* -- Scott Young 
@@ -34,7 +34,7 @@ Most recent are listed first.
 - *Self-Reliance* -- Ralph Waldo Emerson
 </small>
 
-<b>2022<b>
+<b>2022</b>
 
 <small>
 - *Champions of the Rosary* -- Fr. Donald Calloway
@@ -52,7 +52,7 @@ Most recent are listed first.
 I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
 </small>
 
-<b>2024<b>
+<b>2024</b>
 
 <small>
 - *Joshua*
@@ -62,7 +62,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *Exodus*
 </small>
 
-<b>2023<b>
+<b>2023</b>
 
 <small>
 - *Genesis*
@@ -92,7 +92,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *The Gospel of Matthew*
 </small>
 
-<b>2022<b>
+<b>2022</b>
 
 <small>
 - *The Gospel of Mark*
