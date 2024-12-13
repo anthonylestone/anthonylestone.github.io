@@ -5,7 +5,7 @@ permalink: /readinglist/
 nav: false
 ---
 
-# Books
+#### Books
 
 <small>
 Most recent are listed first.
@@ -46,7 +46,7 @@ Most recent are listed first.
 - *Rome Sweet Home* -- Kimberly Hahn and Scott Hahn
 </small>
 
-# Scripture
+#### Scripture
 
 <small>
 I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
