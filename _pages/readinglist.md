@@ -7,6 +7,7 @@ nav: false
 
 ### Books
 
+<small>
 Most recent are listed first.
 
 <b><big>2024</big><b>
@@ -39,9 +40,11 @@ Most recent are listed first.
 - *Adam and Eve after the Pill* -- Mary Eberstadt
 - *The 7 Secrets of the Eucharist* -- Vinny Flynn
 - *Rome Sweet Home* -- Kimberly Hahn and Scott Hahn
+</small>
 
 ### Scripture
 
+<small>
 I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
 
 <b><big>2024</big><b>
@@ -85,3 +88,5 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *The Gospel of Mark*
 - *The Gospel of Luke*
 - *The Gospel of John*
+
+</small>
