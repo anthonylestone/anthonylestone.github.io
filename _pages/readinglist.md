@@ -7,38 +7,38 @@ nav: false
 
 ### Books
 
-<b><big>2024</big><b>
+Most recent are listed first.
 
-<b>In progress:<b>
-- *Undaunted Courage* -- Stephen Ambrose
+<b><big>2024</big><b>
 
 <b>Finished:<b>
 
-- *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
-- *The Glories of Mary* -- St. Alphonsus Liguori
-- *The Servile State* -- Hilaire Belloc
-- *Bowling Alone* -- Robert D. Putnam
-- *A Tale of Two Cities* -- Charles Dickens
+- *Undaunted Courage* -- Stephen Ambrose
 - *Theology of the Body Explained* -- Christopher West
+- *A Tale of Two Cities* -- Charles Dickens
+- *Bowling Alone* -- Robert D. Putnam
+- *The Servile State* -- Hilaire Belloc
+- *The Glories of Mary* -- St. Alphonsus Liguori
+- *The Lost Arts of Modern Civilization* -- Mitchell Kalpakgian
 
 <b><big>2023</big><b>
 
-- *Self-Reliance* -- Ralph Waldo Emerson
-- *The Dating Blueprint* -- Jason Evert
-- *Deep Work* -- Cal Newport
-- *The Meaning of the Mass* -- Rev. John Kerney
-- *Can't Hurt Me* -- David Goggins
 - *Ultralearning* -- Scott Young 
+- *Can't Hurt Me* -- David Goggins
+- *The Meaning of the Mass* -- Rev. John Kerney
+- *Deep Work* -- Cal Newport
+- *The Dating Blueprint* -- Jason Evert
+- *Self-Reliance* -- Ralph Waldo Emerson
 
 <b><big>2022</big><b>
 
-- *Rome Sweet Home* -- Kimberly Hahn and Scott Hahn
-- *The 7 Secrets of the Eucharist* -- Vinny Flynn
-- *Adam and Eve after the Pill* -- Mary Eberstadt
-- *Fill These Hearts* -- Christopher West
-- *Christus Vincit* -- Bishop Athanasius Schneider
-- *Dominus Est* -- Bishop Athanasius Schneider
 - *Champions of the Rosary* -- Fr. Donald Calloway
+- *Dominus Est* -- Bishop Athanasius Schneider
+- *Christus Vincit* -- Bishop Athanasius Schneider
+- *Fill These Hearts* -- Christopher West
+- *Adam and Eve after the Pill* -- Mary Eberstadt
+- *The 7 Secrets of the Eucharist* -- Vinny Flynn
+- *Rome Sweet Home* -- Kimberly Hahn and Scott Hahn
 
 ### Scripture
 
@@ -46,42 +46,42 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 <b><big>2024</big><b>
 
-- *Exodus*
-- *Leviticus*
-- *Numbers*
-- *Deuteronomy*
 - *Joshua*
+- *Deuteronomy*
+- *Numbers*
+- *Leviticus*
+- *Exodus*
 
 <b><big>2023</big><b>
 
-- *The Gospel of Matthew*
-- *Acts*
-- *Romans*
-- *1 Corinthians*
-- *2 Corinthians*
-- *Galatians*
-- *Ephesians*
-- *Phillipians*
-- *Colossians*
-- *1 Thessalonians*
-- *2 Thessalonians*
-- *1 Timothy*
-- *2 Timothy*
-- *Titus*
-- *Philemon*
-- *Hebrews*
-- *James*
-- *1 Peter*
-- *2 Peter*
-- *1 John*
-- *2 John*
-- *3 John*
-- *Jude*
-- *Revelation*
 - *Genesis*
+- *Revelation*
+- *Jude*
+- *3 John*
+- *2 John*
+- *1 John*
+- *2 Peter*
+- *1 Peter*
+- *James*
+- *Hebrews*
+- *Philemon*
+- *Titus*
+- *2 Timothy*
+- *1 Timothy*
+- *2 Thessalonians*
+- *1 Thessalonians*
+- *Colossians*
+- *Phillipians*
+- *Ephesians*
+- *Galatians*
+- *2 Corinthians*
+- *1 Corinthians*
+- *Romans*
+- *Acts*
+- *The Gospel of Matthew*
 
 <b><big>2022</big><b>
 
-- *The Gospel of John*
-- *The Gospel of Luke*
 - *The Gospel of Mark*
+- *The Gospel of Luke*
+- *The Gospel of John*
