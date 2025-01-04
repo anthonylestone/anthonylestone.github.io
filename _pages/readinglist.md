@@ -10,6 +10,7 @@ nav: false
 Most recently completed are listed first.
 
 <b><big>2025</big><b>
+
 *In progress:*
 - *On the Family* -- St. John Paul II
 - *Eating the Sunrise* -- Christopher West
