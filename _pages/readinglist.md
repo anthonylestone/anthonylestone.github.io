@@ -9,6 +9,13 @@ nav: false
 
 Most recently completed are listed first.
 
+<b><big>2025</big><b>
+*In progress:*
+- *On the Family* -- St. John Paul II
+- *Eating the Sunrise* -- Christopher West
+- *Understanding Physics: The Electron, Proton, and Neutron* -- Isaac Asimov
+- *Joy to the World* -- Scott Hahn
+
 <b><big>2024</big><b>
 
 - *Undaunted Courage* -- Stephen Ambrose
@@ -31,8 +38,8 @@ Most recently completed are listed first.
 <b><big>2022</big><b>
 
 - *Champions of the Rosary* -- Fr. Donald Calloway
-- *Dominus Est* -- Bishop Athanasius Schneider
-- *Christus Vincit* -- Bishop Athanasius Schneider
+- *Dominus Est* -- Bp. Athanasius Schneider
+- *Christus Vincit* -- Bp. Athanasius Schneider
 - *Fill These Hearts* -- Christopher West
 - *Adam and Eve after the Pill* -- Mary Eberstadt
 - *The 7 Secrets of the Eucharist* -- Vinny Flynn
