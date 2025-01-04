@@ -1,10 +1,7 @@
----
-permalink: /robots.txt
----
 User-agent: *
 Allow: /projects/
 Disallow: /assets/
 Disallow: /blog/
 Disallow: /news/
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+Sitemap: https://anthonylestone.github.io/sitemap.xml
