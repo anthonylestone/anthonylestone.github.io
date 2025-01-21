@@ -13,8 +13,8 @@ Most recently completed are listed first.
 
 *In progress:*
 - *On the Family* -- St. John Paul II
-- *Eating the Sunrise* -- Christopher West
 - *Understanding Physics: The Electron, Proton, and Neutron* -- Isaac Asimov
+- *Eating the Sunrise* -- Christopher West
 
 *Completed:*
 - *Joy to the World* -- Scott Hahn
