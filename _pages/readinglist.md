@@ -15,6 +15,8 @@ Most recently completed are listed first.
 - *On the Family* -- St. John Paul II
 - *Eating the Sunrise* -- Christopher West
 - *Understanding Physics: The Electron, Proton, and Neutron* -- Isaac Asimov
+
+*Completed:*
 - *Joy to the World* -- Scott Hahn
 
 <b><big>2024</big><b>
@@ -49,6 +51,10 @@ Most recently completed are listed first.
 ### Scripture
 
 I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
+
+<b><big>2025</big><b>
+
+- *Judges*
 
 <b><big>2024</big><b>
 
