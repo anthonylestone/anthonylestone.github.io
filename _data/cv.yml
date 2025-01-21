@@ -14,6 +14,8 @@
     - title: PhD in Nuclear Physics
       institution: Texas A&M University
       year: expected 2028 
+      description:
+        - GPA 4.0
     - title: Bachelor of Science in Physics
       institution: Texas A&M University
       year: 2021 - 2024
@@ -59,11 +61,6 @@
         - C++
         - Python
         - Java
-    - title: Developer Tools
-      items:
-        - Git
-        - Vim
-        - VSCode
     - title: Physics Software 
       items:
         - Geant4
@@ -73,10 +70,11 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2021-present
+    - year: 2021-2025
       items: 
         - National Merit Scholarship 
         - Texas A&M President's Endowed Scholarship
+        - Phillip & Doris Moses Ranch Scholarship
     - year: 2021
       items: 
         - International Science and Engineering Fair - <a href="/projects/muography/">2nd Place in Physics and Astronomy</a>
@@ -91,6 +89,11 @@
 - title: Volunteer Work
   type: time_table
   contents:
+    - title: <a href="https://artsci.tamu.edu/physics-astronomy/outreach/deep/index.html">DEEP Program</a> Mentor
+      year: 2024-present
+      items: 
+          - Mentor a team of 14 undergraduates in the design of the Giant Muon Detector demonstration for the TAMU Physics Festival
+          - Co-mentor with <a href="https://www.researchgate.net/profile/Benjamin-Wellons">Ben Wellons</a>
     - title: Physics Festival Volunteer
       year: 2022
       items: 
