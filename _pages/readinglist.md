@@ -13,7 +13,7 @@ Most recently completed are listed first.
 
 *In progress:*
 - *On the Family* -- St. John Paul II
-- *Understanding Physics: The Electron, Proton, and Neutron* -- Isaac Asimov
+- *The History of Physics* -- Isaac Asimov
 - *Eating the Sunrise* -- Christopher West
 
 *Completed:*
@@ -54,6 +54,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 <b><big>2025</big><b>
 
+- *Ruth*
 - *Judges*
 
 <b><big>2024</big><b>
