@@ -13,10 +13,12 @@ Most recently completed are listed first.
 
 *In progress:*
 - *On the Family* -- St. John Paul II
-- *The History of Physics* -- Isaac Asimov
 - *Eating the Sunrise* -- Christopher West
+- *The Great Divorce* -- C. S. Lewis
+- *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
 
 *Completed:*
+- *Understanding Physics, Vol. III* -- Isaac Asimov
 - *Joy to the World* -- Scott Hahn
 
 <b><big>2024</big><b>
