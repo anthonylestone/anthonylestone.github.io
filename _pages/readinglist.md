@@ -12,8 +12,7 @@ Most recently completed are listed first.
 <b><big>2025</big><b>
 
 *In progress:*
-- *On the Family* -- St. John Paul II
-- *Eating the Sunrise* -- Christopher West
+- *I Accuse the Council* -- Marcel Lefebvre
 - *The Great Divorce* -- C. S. Lewis
 - *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
 
