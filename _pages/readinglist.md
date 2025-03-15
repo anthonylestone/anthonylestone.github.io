@@ -12,11 +12,13 @@ Most recently completed are listed first.
 <b><big>2025</big><b>
 
 *In progress:*
-- *I Accuse the Council* -- Marcel Lefebvre
+- *The Catechism of the Council of Trent* -- Pope St. Pius V et al.
+- *Understanding Physics, Vol. I* -- Isaac Asimov
 - *The Great Divorce* -- C. S. Lewis
 - *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
 
 *Completed:*
+- *I Accuse the Council* -- Marcel Lefebvre
 - *Understanding Physics, Vol. III* -- Isaac Asimov
 - *Joy to the World* -- Scott Hahn
 
@@ -53,23 +55,24 @@ Most recently completed are listed first.
 
 I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims-bible-paperbound/).
 
-<b><big>2025</big><b>
+<b><big>2025</big></b>
 
+- *1 Kings* [^1]
 - *Ruth*
 - *Judges*
 
-<b><big>2024</big><b>
+<b><big>2024</big></b>
 
-- *Joshua*
+- *Josue* [^2]
 - *Deuteronomy*
 - *Numbers*
 - *Leviticus*
 - *Exodus*
 
-<b><big>2023</big><b>
+<b><big>2023</big></b>
 
 - *Genesis*
-- *Revelation*
+- *The Apocalypse* [^3]
 - *Jude*
 - *3 John*
 - *2 John*
@@ -85,7 +88,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *2 Thessalonians*
 - *1 Thessalonians*
 - *Colossians*
-- *Phillipians*
+- *Philippians*
 - *Ephesians*
 - *Galatians*
 - *2 Corinthians*
@@ -94,8 +97,14 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 - *Acts*
 - *The Gospel of Matthew*
 
-<b><big>2022</big><b>
+<b><big>2022</big></b>
 
 - *The Gospel of Mark*
 - *The Gospel of Luke*
 - *The Gospel of John*
+
+---
+
+[^1]: Also known as *1 Samuel*  
+[^2]: Also known as *Joshua*  
+[^3]: Also known as *Revelation*  
