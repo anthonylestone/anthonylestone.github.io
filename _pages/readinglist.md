@@ -57,13 +57,14 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 <b><big>2025</big></b>
 
-- *1 Kings* [^1]
+- *2 Kings* [^1]
+- *1 Kings* [^2]
 - *Ruth*
 - *Judges*
 
 <b><big>2024</big></b>
 
-- *Josue* [^2]
+- *Josue* [^3]
 - *Deuteronomy*
 - *Numbers*
 - *Leviticus*
@@ -72,7 +73,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 <b><big>2023</big></b>
 
 - *Genesis*
-- *The Apocalypse* [^3]
+- *The Apocalypse* [^4]
 - *Jude*
 - *3 John*
 - *2 John*
@@ -105,6 +106,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 ---
 
-[^1]: Also known as *1 Samuel*  
-[^2]: Also known as *Joshua*  
-[^3]: Also known as *Revelation*  
+[^1]: Also known as *2 Samuel*  
+[^2]: Also known as *1 Samuel*  
+[^3]: Also known as *Joshua*  
+[^4]: Also known as *Revelation*  
