@@ -18,7 +18,7 @@ Most recently completed are listed first.
 - *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
 
 *Completed:*
-- *I Accuse the Council* -- Marcel Lefebvre
+- *I Accuse the Council* -- Abp. Marcel Lefebvre
 - *Understanding Physics, Vol. III* -- Isaac Asimov
 - *Joy to the World* -- Scott Hahn
 
