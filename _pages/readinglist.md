@@ -12,12 +12,13 @@ Most recently completed are listed first.
 <b><big>2025</big><b>
 
 *In progress:*
+- *Genius: The Life and Science of Richard Feynman* -- James Gleick
 - *The Catechism of the Council of Trent* -- Pope St. Pius V et al.
-- *Understanding Physics, Vol. I* -- Isaac Asimov
-- *The Great Divorce* -- C. S. Lewis
 - *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
 
 *Completed:*
+- *Open Letter to Confused Catholics* -- Abp. Marcel Lefebvre
+- *The Great Divorce* -- C. S. Lewis
 - *I Accuse the Council* -- Abp. Marcel Lefebvre
 - *Understanding Physics, Vol. III* -- Isaac Asimov
 - *Joy to the World* -- Scott Hahn
@@ -57,15 +58,16 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 <b><big>2025</big></b>
 
-- *3 Kings* [^1]
-- *2 Kings* [^2]
-- *1 Kings* [^3]
+- *4 Kings* [^1]
+- *3 Kings* [^2]
+- *2 Kings* [^3]
+- *1 Kings* [^4]
 - *Ruth*
 - *Judges*
 
 <b><big>2024</big></b>
 
-- *Josue* [^4]
+- *Josue* [^5]
 - *Deuteronomy*
 - *Numbers*
 - *Leviticus*
@@ -74,7 +76,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 <b><big>2023</big></b>
 
 - *Genesis*
-- *The Apocalypse* [^5]
+- *The Apocalypse* [^6]
 - *Jude*
 - *3 John*
 - *2 John*
@@ -107,8 +109,9 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 ---
 
-[^1]: Also known as *1 Kings*  
-[^2]: Also known as *2 Samuel*  
-[^3]: Also known as *1 Samuel*  
-[^4]: Also known as *Joshua*  
-[^5]: Also known as *Revelation*  
+[^1]: Also known as *2 Kings*  
+[^2]: Also known as *1 Kings*  
+[^3]: Also known as *2 Samuel*  
+[^4]: Also known as *1 Samuel*  
+[^5]: Also known as *Joshua*  
+[^6]: Also known as *Revelation*  
