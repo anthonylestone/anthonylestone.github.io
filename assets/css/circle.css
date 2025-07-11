@@ -19,28 +19,27 @@
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   Trail defaults (override any of these in your own stylesheet if you like)
+   Variables you can tweak:
    ───────────────────────────────────────────────────────────────────────────── */
 :root {
-  --trail-size:         8px;
-  --trail-opacity:      0.5;
-  --trail-distance:     80px;
-  --trail-fall-duration: 800ms;
-  --trail-fade-duration:  800ms;
+  --trail-size:            8px;    /* droplet diameter */
+  --trail-gravity:         0.0005;  /* px per ms² */
+  --trail-velocity-scale:  0.25;      /* multiply your mouse speed */
+  --trail-lifetime:       750;   /* ms until fully faded */
+  --trail-boost: 0.1; /* add a little bit of initial upward velocity */
 }
 
+/* (keep your existing #circle styling here…) */
+
 /* ─────────────────────────────────────────────────────────────────────────────
-   Individual trail-droplet styling
+   Trail droplet styling
    ───────────────────────────────────────────────────────────────────────────── */
 .trail-circle {
   position: fixed;
-  width: var(--trail-size);
-  height: var(--trail-size);
+  width:           var(--trail-size);
+  height:          var(--trail-size);
   background-color: var(--global-theme-color);
-  opacity: var(--trail-opacity);
-  border-radius: 50%;
-  pointer-events: none;
-  transition: 
-    transform var(--trail-fall-duration) ease-out,
-    opacity   var(--trail-fade-duration)  ease-out;
+  border-radius:    50%;
+  pointer-events:   none;
+  will-change:      transform, opacity;
 }

@@ -1,35 +1,59 @@
-// circle.js
 window.addEventListener('DOMContentLoaded', () => {
-//   const circle = document.getElementById('circle');
   const styles = getComputedStyle(document.documentElement);
 
-  // pull in our CSS vars
-  const trailDistance = styles.getPropertyValue('--trail-distance').trim();
-  const trailSize     = parseFloat(styles.getPropertyValue('--trail-size'))       || 8;
-  const fallDuration  = parseFloat(styles.getPropertyValue('--trail-fall-duration')) || 800;
-  const fadeDuration  = parseFloat(styles.getPropertyValue('--trail-fade-duration')) || fallDuration;
+  const trailSize  = parseFloat(styles.getPropertyValue('--trail-size'))          || 8;
+  const G          = parseFloat(styles.getPropertyValue('--trail-gravity'))       || 0.001;
+  const VEL_SCALE  = parseFloat(styles.getPropertyValue('--trail-velocity-scale'))|| 1;
+  const BOOST      = parseFloat(styles.getPropertyValue('--trail-boost'))         || 0.2;
+  const LIFETIME   = parseFloat(styles.getPropertyValue('--trail-lifetime'))      || 1000;
+
+  let lastMouse = { x: 0, y: 0, time: null };
 
   document.addEventListener('mousemove', event => {
-    // 1) move the main circle
-    // const x = event.clientX - circle.offsetWidth  / 2;
-    // const y = event.clientY - circle.offsetHeight / 2;
-    // circle.style.transform = `translate(${x}px, ${y}px)`;
+    const now = event.timeStamp;
+    let vx = 0, vy = 0;
 
-    // 2) spawn a tiny trail circle
+    if (lastMouse.time !== null) {
+      const dt = now - lastMouse.time;
+      if (dt > 0) {
+        vx = ((event.clientX - lastMouse.x) / dt) * VEL_SCALE;
+        vy = ((event.clientY - lastMouse.y) / dt) * VEL_SCALE;
+      }
+    }
+    lastMouse = { x: event.clientX, y: event.clientY, time: now };
+
+    // **random upward kick**:
+    vy -= Math.random() * BOOST;
+
+    // spawn droplet…
     const trail = document.createElement('div');
     trail.className = 'trail-circle';
-    trail.style.left = `${event.clientX - trailSize/2}px`;
-    trail.style.top  = `${event.clientY - trailSize/2}px`;
+    let x = event.clientX - trailSize/2;
+    let y = event.clientY - trailSize/2;
+    trail.style.left = `${x}px`;
+    trail.style.top  = `${y}px`;
     document.body.appendChild(trail);
 
-    // 3) on next frame, trigger fall+fade
-    requestAnimationFrame(() => {
-      trail.style.transform = `translateY(${trailDistance})`;
-      trail.style.opacity   = '0';
-    });
+    // animate with gravity + fade
+    const start = performance.now();
+    let t0 = start;
+    function animate(t) {
+      const elapsed = t - start;
+      const dt = t - t0;
+      t0 = t;
 
-    // 4) clean up after animation finishes
-    const cleanupDelay = Math.max(fallDuration, fadeDuration);
-    setTimeout(() => trail.remove(), cleanupDelay);
+      vy += G * dt; // gravity
+      x  += vx * dt;
+      y  += vy * dt;
+
+      const p = elapsed / LIFETIME;
+      trail.style.left    = `${x}px`;
+      trail.style.top     = `${y}px`;
+      trail.style.opacity = `${Math.max(1 - p, 0)}`;
+
+      if (p < 1) requestAnimationFrame(animate);
+      else       trail.remove();
+    }
+    requestAnimationFrame(animate);
   });
 });
