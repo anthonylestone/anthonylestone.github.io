@@ -1,6 +1,6 @@
 // circle.js
 window.addEventListener('DOMContentLoaded', () => {
-  const circle = document.getElementById('circle');
+//   const circle = document.getElementById('circle');
   const styles = getComputedStyle(document.documentElement);
 
   // pull in our CSS vars
@@ -11,9 +11,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
   document.addEventListener('mousemove', event => {
     // 1) move the main circle
-    const x = event.clientX - circle.offsetWidth  / 2;
-    const y = event.clientY - circle.offsetHeight / 2;
-    circle.style.transform = `translate(${x}px, ${y}px)`;
+    // const x = event.clientX - circle.offsetWidth  / 2;
+    // const y = event.clientY - circle.offsetHeight / 2;
+    // circle.style.transform = `translate(${x}px, ${y}px)`;
 
     // 2) spawn a tiny trail circle
     const trail = document.createElement('div');
