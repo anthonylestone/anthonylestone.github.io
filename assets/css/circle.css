@@ -24,7 +24,7 @@
 :root {
   --trail-size:            8px;    /* droplet diameter */
   --trail-gravity:         0.0005;  /* px per ms² */
-  --trail-velocity-scale:  0.25;      /* multiply your mouse speed */
+  --trail-velocity-scale:  0.2;      /* multiply your mouse speed */
   --trail-lifetime:       750;   /* ms until fully faded */
   --trail-boost: 0.1; /* add a little bit of initial upward velocity */
 }
@@ -42,4 +42,8 @@
   border-radius:    50%;
   pointer-events:   none;
   will-change:      transform, opacity;
+}
+
+html, body {
+  touch-action: none;
 }
