@@ -1,0 +1,46 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   Main circle styling (tweak via --circle-size & --circle-opacity)
+   ───────────────────────────────────────────────────────────────────────────── */
+#circle {
+  --circle-size:       20px;
+  --circle-opacity:    0.7;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--circle-size);
+  height: var(--circle-size);
+  background-color: var(--global-theme-color);
+  opacity: var(--circle-opacity);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.1s linear;
+  z-index: 1000;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Trail defaults (override any of these in your own stylesheet if you like)
+   ───────────────────────────────────────────────────────────────────────────── */
+:root {
+  --trail-size:         8px;
+  --trail-opacity:      0.5;
+  --trail-distance:     80px;
+  --trail-fall-duration: 800ms;
+  --trail-fade-duration:  800ms;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Individual trail-droplet styling
+   ───────────────────────────────────────────────────────────────────────────── */
+.trail-circle {
+  position: fixed;
+  width: var(--trail-size);
+  height: var(--trail-size);
+  background-color: var(--global-theme-color);
+  opacity: var(--trail-opacity);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: 
+    transform var(--trail-fall-duration) ease-out,
+    opacity   var(--trail-fade-duration)  ease-out;
+}
