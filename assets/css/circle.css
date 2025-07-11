@@ -38,8 +38,7 @@
   position: fixed;
   width:           var(--trail-size);
   height:          var(--trail-size);
-  /* background-color: var(--global-theme-color); */
-  background-color: red; /* for testing */
+  background-color: var(--global-theme-color);
   border-radius:    50%;
   pointer-events:   none;
   will-change:      transform, opacity;
