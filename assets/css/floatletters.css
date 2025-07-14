@@ -22,36 +22,19 @@
   --fade-duration: 20s;
 }
 
+/* fade-out keyframes */
 @keyframes fadeout {
   0%   { opacity: 1; visibility: visible; }
   99%  { opacity: 0; }
   100% { opacity: 0; visibility: hidden; }
 }
 
-.debugcircle { display: none; }  /* removed */
-
+/* default: inline so words wrap normally, inherit all font styles */
 .floatletter {
-  display: inline-block;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-.floatletter.loose {
-  transform: rotate(var(--angle)) translateY(var(--loosen-drop));
-}
-
-.floatletter.floating {
-  opacity: 1;
-  transition: none;
-  animation: fadeout var(--fade-duration) linear var(--fade-start) forwards;
-}
-
-.floatletter {
-  display: inline-block;
+  display: inline;
   cursor: pointer;
   transition: transform 0.2s ease;
 
-  /* ← new: inherit everything that makes bold/size/etc stay the same */
   font: inherit;
   color: inherit;
   line-height: inherit;
@@ -60,7 +43,23 @@
   font-style: inherit;
   font-weight: inherit;
   font-size: inherit;
-
-  /* keep your vertical alignment consistent */
   vertical-align: baseline;
+}
+
+/* on first click or while floating: allow transforms */
+.floatletter.loose,
+.floatletter.floating {
+  display: inline-block;
+}
+
+/* “loose” state: small tilt & drop */
+.floatletter.loose {
+  transform: rotate(var(--angle)) translateY(var(--loosen-drop));
+}
+
+/* floating state: play fadeout animation */
+.floatletter.floating {
+  opacity: 1;
+  transition: none;
+  animation: fadeout var(--fade-duration) linear var(--fade-start) forwards;
 }
