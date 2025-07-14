@@ -4,8 +4,8 @@
   --nucleon-opacity: 1;
 
   /* ─── 2D HO sim parameters ─────────────────────────────────────────────── */
-  --ho-spring-constant: 1;      /* k in F = −k·x */
-  --ho-max-dt:          0.05;   /* s, clamp per frame */
+  --ho-spring-constant: 2;      /* k in F = −k·x */
+  --ho-max-dt:          0.01;   /* s, clamp per frame */
 }
 
 /* stationary center‐dot */
@@ -16,7 +16,7 @@ body::before {
   left: 50%;
   width: 8px;
   height: 8px;
-  background: white;
+  /* background: white; */
   background: none;
   border-radius: 50%;
   pointer-events: none;
@@ -31,6 +31,7 @@ body::before {
   width: var(--nucleon-size);
   height: var(--nucleon-size);
   border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.199);
   pointer-events: none;
   z-index: 1000;
 }
