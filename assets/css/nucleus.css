@@ -1,0 +1,39 @@
+:root {
+  /* ─── Nucleon display size ──────────────────────────────────────────────── */
+  --nucleon-size:       40px;  /* fixed diameter in px */
+  --nucleon-opacity: 0.95;
+
+  /* ─── 2D HO sim parameters ─────────────────────────────────────────────── */
+  --ho-spring-constant: 2;      /* k in F = −k·x */
+  --ho-max-dt:          0.05;   /* s, clamp per frame */
+}
+
+/* stationary center‐dot */
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+}
+
+/* base style for every nucleon */
+.nucleon {
+  position: fixed;
+  opacity: var(--nucleon-opacity);
+  width: var(--nucleon-size);
+  height: var(--nucleon-size);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* proton = bright red; neutron = gray */
+.proton  { background-color: #d84444; }
+.neutron { background-color: #c5bbbb; }
