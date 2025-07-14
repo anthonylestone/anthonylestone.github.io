@@ -8,37 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
     console.error('✖ floatletters: container not found');
     return;
   }
-
   wrapLetters(container);
-  console.log(
-    '✔ floatletters: wrapped',
-    container.querySelectorAll('span.floatletter').length,
-    'letters'
-  );
-
   container.addEventListener('click', onLetterClick);
 });
 
-/** 
- * Recursively wrap every non‑space char in a span.floatletter,
- * skipping any text inside <a> tags so links stay clickable.
- */
 function wrapLetters(root) {
-  // Use TreeWalker to grab text nodes only
-  const walker = document.createTreeWalker(
-    root,
-    NodeFilter.SHOW_TEXT,
-    null,
-    false
-  );
-  const textNodes = [];
-  let node;
-  while (node = walker.nextNode()) textNodes.push(node);
-
-  textNodes.forEach(textNode => {
-    // don’t touch text inside links
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+  const nodes = [];
+  let n;
+  while (n = walker.nextNode()) nodes.push(n);
+  nodes.forEach(textNode => {
     if (textNode.parentElement.tagName === 'A') return;
-
     const frag = document.createDocumentFragment();
     textNode.textContent.split('').forEach(ch => {
       if (/\s/.test(ch)) {
@@ -60,26 +40,23 @@ function onLetterClick(e) {
 
   // FIRST click: loosen
   if (!el.classList.contains('loose')) {
-    const maxA = parseFloat(
-      getComputedStyle(document.documentElement)
-        .getPropertyValue('--loosen-rotation-range')
-    );
+    const maxA = cssNum('--loosen-rotation-range');
     const angle = (Math.random() * 2 - 1) * maxA;
     el.style.setProperty('--angle', `${angle}deg`);
     el.classList.add('loose');
     return;
   }
 
-  // SECOND click: if already floating, do nothing
+  // ignore if already floating
   if (el.classList.contains('floating')) return;
 
-  // Otherwise spawn a physics‑driven clone
+  // grab position
   const rect    = el.getBoundingClientRect();
   const scrollY = window.scrollY || document.documentElement.scrollTop;
   let   x       = rect.left;
   let   y       = rect.top + scrollY;
 
-  // clone & hide original
+  // clone & style
   const clone = el.cloneNode(true);
   Object.assign(clone.style, {
     position:      'absolute',
@@ -89,70 +66,75 @@ function onLetterClick(e) {
     visibility:    'visible'
   });
   clone.classList.add('floating');
-  // 1) Append the clone so it has layout (needed for getComputedStyle)
-    document.body.appendChild(clone);
+  document.body.appendChild(clone);
 
-    // 2) Copy computed font styles from the original <span> to the clone
-    const cs = window.getComputedStyle(el);
-    [
-        'font',
-        'font-size',
-        'font-family',
-        'font-weight',
-        'font-style',
-        'line-height',
-        'letter-spacing',
-        'text-transform',
-        'color'
-    ].forEach(prop => {
-        clone.style.setProperty(prop, cs.getPropertyValue(prop));
-    });
+  // copy font styles
+  const cs = getComputedStyle(el);
+  [
+    'font','font-size','font-family','font-weight',
+    'font-style','line-height','letter-spacing',
+    'text-transform','color'
+  ].forEach(p =>
+    clone.style.setProperty(p, cs.getPropertyValue(p))
+  );
 
-    // 3) Now you can hide the original and start the physics:
-    el.style.visibility = 'hidden';
-  el.style.visibility = 'hidden';
+  // hide original & prepare for recovery
+  el.style.transition    = '';           // clear any old transitions
+  el.style.transform     = '';           // reset rotation
+  el.classList.remove('loose');          // clear loose state
+  el.style.opacity       = '0';
+  el.style.visibility    = 'hidden';
+  el.style.pointerEvents = 'none';       // disable clicks
 
-  // read CSS vars
-  const g      = cssNum('--gravity');                   
-  const vT     = cssNum('--terminal-velocity');         
-  const dragC  = g / vT;                                
-  const rR     = cssNum('--rotation-speed-range');      
-  const fStd   = cssNum('--sway-force-std');            
-  const pdMin  = cssNum('--sway-push-duration-min');    
-  const pdMax  = cssNum('--sway-push-duration-max');    
-  const fadeSt = cssNum('--fade-start') * 1000;         
-  const fadeDu = cssNum('--fade-duration') * 1000;      
+  // read CSS vars (all durations in ms)
+  const g        = cssNum('--gravity');
+  const vT       = cssNum('--terminal-velocity');
+  const dragC    = g / vT;
+  const rR       = cssNum('--rotation-speed-range');
+  const fStd     = cssNum('--sway-force-std');
+  const pdMin    = cssNum('--sway-push-duration-min');
+  const pdMax    = cssNum('--sway-push-duration-max');
+  const fadeSt   = cssNum('--fade-start') * 1000;
+  const fadeDu   = cssNum('--fade-duration') * 1000;
+  const recStart = cssNum('--recover-start') * 1000;
+  const recDur   = cssNum('--recover-duration') * 1000;
 
-  // remove after fade
+  // remove clone after its fade-out
   setTimeout(() => clone.remove(), fadeSt + fadeDu);
 
-  // initial rotation
-  const initA  = parseFloat(el.style.getPropertyValue('--angle'));
-  const rSpeed = (Math.random() * 2 - 1) * rR;
+  // schedule original fade-in
+  setTimeout(() => {
+    el.style.visibility = 'visible';
+    el.style.transition = `opacity ${recDur/1000}s ease`;
+    // force reflow to pick up transition
+    void el.offsetWidth;
+    el.style.opacity    = '1';
+  }, recStart);
 
-  // random sway cycle
-  let pushFx      = randNorm() * fStd;
-  let pushDur     = pdMin + Math.random() * (pdMax - pdMin);
-  let pushElapsed = 0;
+  // re-enable click & clean up after fade-in
+  setTimeout(() => {
+    el.style.transition    = '';
+    el.style.opacity       = '';
+    el.style.pointerEvents = '';  // clickable again
+  }, recStart + recDur);
 
-  // dynamics state
-  let vx     = 0, vy = 0;
-  let t      = 0, lastTs = performance.now();
-  const bottomY = window.innerHeight + scrollY;
+  // physics setup
+  const initA   = parseFloat(el.style.getPropertyValue('--angle'));
+  const rSpeed  = (Math.random() * 2 - 1) * rR;
+  let   pushFx      = randNorm() * fStd;
+  let   pushDur     = pdMin + Math.random() * (pdMax - pdMin);
+  let   pushElapsed = 0;
+  let   vx = 0, vy = 0, t = 0, lastTs = performance.now();
 
   function step(now) {
-    const dt = (now - lastTs) / 1000;
-    lastTs = now;
-    t += dt;
+    const dt = (now - lastTs) / 1000; lastTs = now; t += dt;
 
-    // 1) Gravity
+    // 1) gravity
     const Fg = g;
-
-    // 2) Drag
+    // 2) drag
     const Fdx = -dragC * vx;
     const Fdy = -dragC * vy;
-
-    // 3) Random sway (x only)
+    // 3) random sway
     pushElapsed += dt;
     if (pushElapsed >= pushDur) {
       pushFx      = randNorm() * fStd;
@@ -160,54 +142,42 @@ function onLetterClick(e) {
       pushElapsed = 0;
     }
     const Frx = pushFx, Fry = 0;
-
-    // 4) Sum forces → acceleration
+    // 4) sum → accel
     const ax = Fdx + Frx;
     const ay = Fg  + Fdy;
-
-    // 5) Integrate velocity
+    // 5) integrate vel
     vx += ax * dt;
     vy += ay * dt;
-
-    // 6) Cap at terminal speed
+    // 6) cap at terminal speed
     const speed = Math.hypot(vx, vy);
     if (speed > vT) {
       const f = vT / speed;
       vx *= f; vy *= f;
     }
-
-    // 7) Integrate position
+    // 7) integrate pos
     x += vx * dt;
     y += vy * dt;
-
-    // 8) Rotation
+    // 8) rotation
     const rot = initA + rSpeed * t;
-
-    // 9) Apply to clone
+    // 9) apply to clone
     clone.style.left      = `${x}px`;
-    clone.style.top       = `${Math.min(y, bottomY)}px`;
+    clone.style.top       = `${y}px`;
     clone.style.transform = `rotate(${rot}deg)`;
-
-    if (y < bottomY) {
-      requestAnimationFrame(step);
-    }
+    requestAnimationFrame(step);
   }
 
   requestAnimationFrame(step);
 }
 
-// read numeric CSS var helper
 function cssNum(name) {
   return parseFloat(
-    getComputedStyle(document.documentElement)
-      .getPropertyValue(name)
+    getComputedStyle(document.documentElement).getPropertyValue(name)
   );
 }
 
-// Gaussian N(0,1)
 function randNorm() {
   let u=0, v=0;
-  while(u===0) u=Math.random();
-  while(v===0) v=Math.random();
+  while (u===0) u=Math.random();
+  while (v===0) v=Math.random();
   return Math.sqrt(-2*Math.log(u)) * Math.cos(2*Math.PI*v);
 }

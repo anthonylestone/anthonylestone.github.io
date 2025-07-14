@@ -6,7 +6,7 @@
   /* vertical fall physics */
   --gravity: 5;                         /* px/s² */
 
-  /* desired terminal speed (vector magnitude) */
+  /* total terminal velocity */
   --terminal-velocity: 25;              /* px/s */
 
   /* continuous rotation */
@@ -17,19 +17,23 @@
   --sway-push-duration-min: 0.5s;       /* s */
   --sway-push-duration-max: 1s;         /* s */
 
-  /* fade timing */
+  /* clone fade‑out timing */
   --fade-start: 15s;
   --fade-duration: 20s;
+
+  /* ### NEW: recovery fade‑in timing for the original letters ### */
+  --recover-start: 10s;      /* when to begin fading back in */
+  --recover-duration: 10s;   /* how long the fade‑in takes */
 }
 
-/* fade-out keyframes */
+/* fade‑out animation for the clones */
 @keyframes fadeout {
   0%   { opacity: 1; visibility: visible; }
   99%  { opacity: 0; }
   100% { opacity: 0; visibility: hidden; }
 }
 
-/* default: inline so words wrap normally, inherit all font styles */
+/* default: inline so wrapping is normal; inherit all font styling */
 .floatletter {
   display: inline;
   cursor: pointer;
@@ -46,18 +50,18 @@
   vertical-align: baseline;
 }
 
-/* on first click or while floating: allow transforms */
+/* only inline-block when animating */
 .floatletter.loose,
 .floatletter.floating {
   display: inline-block;
 }
 
-/* “loose” state: small tilt & drop */
+/* first‑click “loosen” tilt + drop */
 .floatletter.loose {
   transform: rotate(var(--angle)) translateY(var(--loosen-drop));
 }
 
-/* floating state: play fadeout animation */
+/* clone fade‑out */
 .floatletter.floating {
   opacity: 1;
   transition: none;
