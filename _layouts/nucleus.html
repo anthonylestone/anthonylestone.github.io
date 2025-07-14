@@ -14,3 +14,38 @@ layout: default
 </div>
 
 <script src="{{ '/assets/js/nucleus.js' | relative_url }}"></script>
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  // your raw Z/A/radius data, no offsets here
+  const rawConfigs = [
+    { Z: 1,   A: 2,   radius: 6 },   // D-2
+    { Z: 2,   A: 4,   radius: 6 },   // He-4
+    { Z: 20,  A: 40,  radius: 6 },   // Ca-40
+    { Z: 92,  A: 238, radius: 6 }    // U-238
+  ];
+
+  const spacingX = 200;            // px between columns
+  const spacingY = 200;            // px between rows
+  const viewportW = window.innerWidth;
+  const itemsPerRow = Math.max(1, Math.floor(viewportW / spacingX));
+
+  rawConfigs.forEach((cfg, i) => {
+    const col = i % itemsPerRow;
+    const row = Math.floor(i / itemsPerRow);
+
+    // center the whole grid around x=0
+    const totalCols = Math.min(itemsPerRow, rawConfigs.length);
+    const startX = -((totalCols - 1) / 2) * spacingX;
+
+    const offset = {
+      x: startX + col * spacingX,
+      y: row * spacingY
+    };
+
+    const nuc = new Nucleus({ ...cfg, offset });
+    nuc.start();
+  });
+});
+</script>
+

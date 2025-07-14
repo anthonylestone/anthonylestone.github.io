@@ -5,4 +5,4 @@ description: Testing some fun stuff.
 permalink: /nucleus/
 ---
 
-how did you find this page bruh
+Simple nucleus animation.
