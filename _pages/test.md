@@ -5,4 +5,6 @@ description: A simple page with a circle following the cursor.
 permalink: /test/
 ---
 
-Hi Ev :)
+This is a test page.
+
+[test link](https://www.google.com)

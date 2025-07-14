@@ -1,0 +1,47 @@
+:root {
+  /* first-click “loosen” */
+  --loosen-rotation-range: 5deg;        /* ±5° */
+  --loosen-drop: 2px;                   /* px down */
+
+  /* vertical fall physics */
+  --gravity: 5;                         /* px/s² */
+
+  /* desired terminal speed (vector magnitude) */
+  --terminal-velocity: 25;              /* px/s */
+
+  /* continuous rotation */
+  --rotation-speed-range: 15deg/s;      /* ±15°/s */
+
+  /* random sway */
+  --sway-force-std: 3;                  /* px/s² */
+  --sway-push-duration-min: 0.5s;       /* s */
+  --sway-push-duration-max: 1s;         /* s */
+
+  /* fade timing */
+  --fade-start: 15s;
+  --fade-duration: 20s;
+}
+
+@keyframes fadeout {
+  0%   { opacity: 1; visibility: visible; }
+  99%  { opacity: 0; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+.debugcircle { display: none; }  /* removed */
+
+.floatletter {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.floatletter.loose {
+  transform: rotate(var(--angle)) translateY(var(--loosen-drop));
+}
+
+.floatletter.floating {
+  opacity: 1;
+  transition: none;
+  animation: fadeout var(--fade-duration) linear var(--fade-start) forwards;
+}
