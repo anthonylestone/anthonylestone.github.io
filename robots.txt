@@ -6,6 +6,7 @@ Allow: /projects/
 Disallow: /assets/
 Disallow: /blog/
 Disallow: /news/
-Disallow /test/
+Disallow: /test/
+Disallow: /nucleus/
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
