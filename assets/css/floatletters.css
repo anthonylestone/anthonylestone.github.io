@@ -45,3 +45,22 @@
   transition: none;
   animation: fadeout var(--fade-duration) linear var(--fade-start) forwards;
 }
+
+.floatletter {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+
+  /* ← new: inherit everything that makes bold/size/etc stay the same */
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  font-variant: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+
+  /* keep your vertical alignment consistent */
+  vertical-align: baseline;
+}

@@ -89,7 +89,27 @@ function onLetterClick(e) {
     visibility:    'visible'
   });
   clone.classList.add('floating');
-  document.body.appendChild(clone);
+  // 1) Append the clone so it has layout (needed for getComputedStyle)
+    document.body.appendChild(clone);
+
+    // 2) Copy computed font styles from the original <span> to the clone
+    const cs = window.getComputedStyle(el);
+    [
+        'font',
+        'font-size',
+        'font-family',
+        'font-weight',
+        'font-style',
+        'line-height',
+        'letter-spacing',
+        'text-transform',
+        'color'
+    ].forEach(prop => {
+        clone.style.setProperty(prop, cs.getPropertyValue(prop));
+    });
+
+    // 3) Now you can hide the original and start the physics:
+    el.style.visibility = 'hidden';
   el.style.visibility = 'hidden';
 
   // read CSS vars
