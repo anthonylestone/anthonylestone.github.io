@@ -1,0 +1,18 @@
+:root{
+  --koi-body: var(--global-text-color);
+  --koi-accent: var(--global-theme-color);
+  --koi-shadow: rgba(0,0,0,.15);
+}
+
+#koi-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw; height: 100vh;
+  pointer-events: none;
+  z-index: 0; /* behind content */
+}
+
+body { position: relative; }
+
+/* keep letters above canvas even when absolutely positioned */
+.floatletter, .floatletter.floating { position: relative; z-index: 2; }

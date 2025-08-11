@@ -1,0 +1,7 @@
+/* assets/css/particle.css */
+.particle-window {
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  position: relative;  /* so canvas absolutely fills if you prefer */
+  overflow: hidden;    /* hide any overflow during the loop */
+}
