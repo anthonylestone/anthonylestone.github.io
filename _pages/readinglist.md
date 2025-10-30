@@ -17,6 +17,7 @@ Most recently completed are listed first.
 - *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
 
 *Completed:*
+- *Cana Is Forever* -- Fr. Charles Hugo Doyle
 - *Open Letter to Confused Catholics* -- Abp. Marcel Lefebvre
 - *The Great Divorce* -- C. S. Lewis
 - *I Accuse the Council* -- Abp. Marcel Lefebvre
