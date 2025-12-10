@@ -12,11 +12,11 @@ Most recently completed are listed first.
 <b><big>2025</big><b>
 
 *In progress:*
-- *Genius: The Life and Science of Richard Feynman* -- James Gleick
 - *The Catechism of the Council of Trent* -- Pope St. Pius V et al.
 - *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
 
 *Completed:*
+- *Genius: The Life and Science of Richard Feynman* -- James Gleick
 - *Cana Is Forever* -- Fr. Charles Hugo Doyle
 - *Open Letter to Confused Catholics* -- Abp. Marcel Lefebvre
 - *The Great Divorce* -- C. S. Lewis
