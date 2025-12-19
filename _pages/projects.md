@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Projects
+title: Old Projects
 permalink: /projects/
-description: 
-nav: true
-nav_order: 2
+description: A collection of my old projects from undergraduate and high school.
+nav: false
 display_categories: [Texas A&M Cyclotron Institute,Los Alamos National Laboratory,High School Science Fair,Aggies Invent]
 horizontal: false
 ---
