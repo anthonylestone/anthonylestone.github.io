@@ -5,6 +5,21 @@ permalink: /readinglist/
 nav: false
 ---
 
+<style>
+  /* Reduce spacing inside the footnotes area */
+  .footnotes p{
+    margin-top: 0 !important;
+    margin-bottom: 0.25rem !important;  /* adjust to taste */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* Optional: slightly smaller and tighter line-height */
+  .footnotes {
+    line-height: 1.2 !important;
+  }
+</style>
+
 ### Books
 
 Most recently completed are listed first.
@@ -12,8 +27,7 @@ Most recently completed are listed first.
 <b><big>2025</big><b>
 
 *In progress:*
-- *The Catechism of the Council of Trent* -- Pope St. Pius V et al.
-- *Backyard Meat Rabbits for Beginners* -- Ann McKenzie
+- *The Mass in Slow Motion* -- Fr Ronald Knox
 
 *Completed:*
 - *Genius: The Life and Science of Richard Feynman* -- James Gleick
@@ -59,16 +73,16 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 <b><big>2025</big></b>
 
-- *4 Kings* [^1]
-- *3 Kings* [^2]
-- *2 Kings* [^3]
-- *1 Kings* [^4]
+- *4 Kings* [^four-kings]
+- *3 Kings* [^three-kings]
+- *2 Kings* [^two-kings]
+- *1 Kings* [^one-kings]
 - *Ruth*
 - *Judges*
 
 <b><big>2024</big></b>
 
-- *Josue* [^5]
+- *Josue* [^josue]
 - *Deuteronomy*
 - *Numbers*
 - *Leviticus*
@@ -77,7 +91,7 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 <b><big>2023</big></b>
 
 - *Genesis*
-- *The Apocalypse* [^6]
+- *The Apocalypse* [^apocalypse]
 - *Jude*
 - *3 John*
 - *2 John*
@@ -110,9 +124,9 @@ I read the [Douay-Rheims Bible](https://tanbooks.com/products/books/douay-rheims
 
 ---
 
-[^1]: Also known as *2 Kings*  
-[^2]: Also known as *1 Kings*  
-[^3]: Also known as *2 Samuel*  
-[^4]: Also known as *1 Samuel*  
-[^5]: Also known as *Joshua*  
-[^6]: Also known as *Revelation*  
+[^four-kings]: Also known as *2 Kings*  
+[^three-kings]: Also known as *1 Kings*  
+[^two-kings]: Also known as *2 Samuel*  
+[^one-kings]: Also known as *1 Samuel*  
+[^josue]: Also known as *Joshua*  
+[^apocalypse]: Also known as *Revelation*  
