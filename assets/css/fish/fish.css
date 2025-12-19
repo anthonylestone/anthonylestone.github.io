@@ -1,0 +1,53 @@
+/* Container for the whole fish */
+.tail-container {
+  width: 260px;
+  height: 200px;
+  position: relative;
+}
+
+/* The tail is a triangle using borders */
+.fish-tail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* Left vertex fixed */
+  transform: translate(-100%, -50%);
+
+  /* Triangle pointing right */
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 30px solid #4ab0ff; /* Tail color (JS will tweak lightness) */
+  transform-origin: 0% 50%; /* lock the left vertex */
+}
+
+/* Stylized fish body polygon to the right of the tail */
+.fish-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  width: 140px;
+  height: 90px;
+
+  /* Rough polygon like your reference */
+  clip-path: polygon(
+    0% 48%,   /* left mid-top */
+    60% 0%,   /* top peak */
+    100% 40%, /* upper nose */
+    90% 70%,  /* bottom peak */
+    50% 100%,  /* bottom peak */
+    0% 52%    /* left mid-bottom */
+  );
+
+  background: linear-gradient(180deg, #2049a1 0%, #7ca2f3 45%, #4ad0ff 100%);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+}
+
+
+/* Optional: wrapper to center the fish on the page */
+.fish-wrapper {
+  margin: 2rem auto;
+  max-width: 260px;
+}
