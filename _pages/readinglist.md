@@ -27,7 +27,8 @@ Most recently completed are listed first.
 <b><big>2025</big><b>
 
 *In progress:*
-- *The Mass in Slow Motion* -- Fr Ronald Knox
+- *The Mass in Slow Motion* -- Fr. Ronald Knox
+- *Three to Get Married* -- Abp. Fulton Sheen
 
 *Completed:*
 - *Genius: The Life and Science of Richard Feynman* -- James Gleick
