@@ -11,7 +11,7 @@ profile:
 
 <b><big>Howdy!</big><b>
 
-I am a Nuclear Physics PhD student at Texas A&M University Cyclotron Institute,
+I am a Nuclear Physics PhD student at the Texas A&M University Cyclotron Institute,
 working under [Dr.  Grigory
 Rogachev](https://artsci.tamu.edu/physics-astronomy/contact/profiles/grigory-rogachev.html).
 
