@@ -27,10 +27,12 @@ Most recently completed are listed first.
 <b><big>2025</big><b>
 
 *In progress:*
-- *The Mass in Slow Motion* -- Fr. Ronald Knox
+- *The Story of a Soul* -- St. Thérèse of Lisieux
+- *The Definitive Guide to Catholic Fasting and Abstinence* -- Matthew Plese 
 - *Three to Get Married* -- Abp. Fulton Sheen
 
 *Completed:*
+- *The Mass in Slow Motion* -- Fr. Ronald Knox
 - *Genius: The Life and Science of Richard Feynman* -- James Gleick
 - *Cana Is Forever* -- Fr. Charles Hugo Doyle
 - *Open Letter to Confused Catholics* -- Abp. Marcel Lefebvre
