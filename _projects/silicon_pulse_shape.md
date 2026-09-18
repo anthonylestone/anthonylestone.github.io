@@ -9,7 +9,7 @@ category: Texas A&M Cyclotron Institute
 
 Research conducted under [Grigory Rogachev](https://physics.tamu.edu/directory/rogachev/) and [Marina Barbui](https://www.linkedin.com/in/marina-barbui-7a903130/).
 
-This presentation was given as part of the Cylcotron Insitute Brown Bag Luncheon lecture series.
+This presentation was given as part of the Cyclotron Institute Brown Bag Luncheon lecture series.
 
 Pulse shape discrimination (PSD) is a technique used to differentiate between different types of particles in a detector. PSD is usually done using specialized neutron transmutation doped (NTD) silicon detectors, but this project demonstrates that good proton-deuteron separation can be achieved above 6 MeV using an ordinary silicon detector.
 

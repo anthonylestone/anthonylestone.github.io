@@ -7,7 +7,7 @@ importance: 2
 category: Los Alamos National Laboratory
 ---
 
-This project focuses on the study of B meson production in 13 TeV proton-proton collisions at the Large Hadron Collider measured with the LHCb experiment. The measured production rate of differently flavored B mesons was compared to monte carlo simulations. Simulation software contains only well-studied hadronization methods (fragmentation), so discrepancies between simulations and experimental data could imply the observation of novel hadronization methods (quark coalescence).
+This project focuses on the study of B meson production in 13 TeV proton-proton collisions at the Large Hadron Collider measured with the LHCb experiment. The measured production rate of differently flavored B mesons was compared to Monte Carlo simulations. Simulation software contains only well-studied hadronization methods (fragmentation), so discrepancies between simulations and experimental data could imply the observation of novel hadronization methods (quark coalescence).
 
 This project was completed during the summer of 2022 as part of an internship at Los Alamos National Laboratory.
 

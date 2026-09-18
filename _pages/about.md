@@ -16,7 +16,7 @@ working under [Dr.  Grigory
 Rogachev](https://artsci.tamu.edu/physics-astronomy/contact/profiles/grigory-rogachev.html).
 
 
-As an undergraudate, I spent two summers at Los Alamos National Laboratory with
+As an undergraduate, I spent two summers at Los Alamos National Laboratory with
 Dr. Matt Durham. There, my primary focus was the analysis of high energy
 proton-proton collision data from the LHCb collaboration, while also gaining
 hands-on experience assembling experimental hardware in the lab.
